@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  display: block;
+  margin: o auto;
+  font-family: "Halvar Mittelshrift";
+  background-color: black;
+  position: relative;
+}
+/* body ::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/longrid\ guide.svg");
+  height: 6700px;
+  width: 1440px;
+  opacity: 0.2;
+} */
+#firstSection img {
+  width: 671px;
+  height: 532px;
+  margin: 26px 392px 377px;
+}
+#firstSection h1 {
+  font-size: 93px;
+  font-weight: 400;
+}

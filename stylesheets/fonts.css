@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-Bd.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-BdSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-BdSuSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-Blk.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-BlkSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-BlkSuSlanted.woff") format("woff");
+  font-style: 900;
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-Hl.woff") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-Hl_1.woff") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-HlSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-HlSuSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-Lt.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-LtSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-LtSuSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-Md.woff") format("woff");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-MdSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-MdSuSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-Rg.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-RgSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-RgSuSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-Th.woff") format("woff");
+  font-style: 400;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-ThSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-ThSuSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-XBd.woff") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-XBdSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-XBdSuSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-XTh.woff") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-XThSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-XThSuSlanted.woff") format("woff");
+  font-style: italic;
+  font-weight: 100;
+}
