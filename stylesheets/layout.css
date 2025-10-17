@@ -5,26 +5,45 @@ body {
   width: 1440px;
   display: block;
   margin: o auto;
-  font-family: "Halvar Mittelshrift";
+  font-family: "Halvar Mittelschrift";
   background-color: black;
   position: relative;
 }
-/* body ::after {
+body ::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../images/longrid\ guide.svg");
+  background-image: url("../images/longrid\ guide.png");
   height: 6700px;
   width: 1440px;
   opacity: 0.2;
-} */
-#firstSection img {
+}
+.firstSection img {
   width: 671px;
   height: 532px;
-  margin: 26px 392px 377px;
+  margin: 26px 392px 0px 377px;
 }
-#firstSection h1 {
+.firstSection h1 {
   font-size: 93px;
   font-weight: 400;
+  color: white;
+  margin: 40px 334px 0px 331px;
+}
+.firstSection p {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  margin: 29px 424px 0px 428px;
+}
+.secondSection img {
+  width: 150px;
+  height: 214px;
+  margin: 142px 640px 0px 640px;
+}
+.secondSection h2 {
+  font-size: 60px;
+  font-weight: 400;
+  color: white;
+  margin: 23px 399px 0px 389px;
 }
