@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   width: 1440px;
   display: block;
@@ -9,12 +10,11 @@ body {
   background-color: black;
   position: relative;
 }
-body ::after {
+.image {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../images/longrid\ guide.png");
   height: 6700px;
   width: 1440px;
   opacity: 0.2;
@@ -42,8 +42,103 @@ body ::after {
   margin: 142px 640px 0px 640px;
 }
 .secondSection h2 {
-  font-size: 60px;
+  font-size: 64px;
   font-weight: 400;
   color: white;
-  margin: 23px 399px 0px 389px;
+  margin: 10px 399px 0px 389px;
+}
+.secondSection div:nth-of-type(2) p {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: white;
+  margin: 25px 392px 0px 386px;
+  text-align: center;
+}
+.secondSection div:nth-of-type(3) p {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: white;
+  margin: 21px 490px 0px 489px;
+  text-align: center;
+}
+.thirdSection img {
+  width: 222px;
+  height: 152px;
+  margin: 155px 614px 0px 604px;
+}
+.thirdSection h2 {
+  font-size: 64px;
+  font-weight: 400;
+  color: white;
+  margin: 2px 556px 0px 549px;
+}
+.fourthSection {
+  display: flex;
+  font-size: 34px;
+  color: white;
+  width: 186px;
+  height: 313px;
+}
+.fifthSection {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  width: 1012px;
+  margin: 67px 82px 0 346px;
+}
+.hL {
+  font-weight: 100;
+  width: 81px;
+  height: 16px;
+  padding-left: 30px;
+}
+.eT {
+  font-weight: 100;
+  width: 98px;
+  height: 22px;
+  padding-left: 30px;
+}
+.tH {
+  font-weight: 100;
+  width: 45px;
+  height: 28px;
+  padding-left: 90px;
+}
+.lT {
+  font-weight: 100;
+  width: 98px;
+  height: 22px;
+  padding-left: 102px;
+}
+.rG {
+  font-weight: 100;
+  width: 45px;
+  height: 28px;
+  padding-left: 105px;
+}
+.mD {
+  font-weight: 100;
+  width: 45px;
+  height: 28px;
+  padding-left: 115px;
+}
+.bD {
+  font-weight: 100;
+  width: 45px;
+  height: 28px;
+  padding-left: 137px;
+}
+.eBD {
+  font-weight: 100;
+  width: 45px;
+  height: 28px;
+  padding-left: 90px;
+}
+.bL {
+  font-weight: 100;
+  width: 45px;
+  height: 28px;
+  padding-left: 30px;
 }
