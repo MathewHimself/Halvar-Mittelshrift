@@ -1,10 +1,15 @@
 * {
   box-sizing: border-box;
 }
-
-body {
-  width: 1440px;
+.All {
   display: block;
+  width: 1440px;
+  margin: 0 auto;
+}
+body {
+  width: 100%;
+  justify-content: center;
+  display: flex;
   margin: o auto;
   font-family: "Halvar Mittelschrift";
   background-color: black;
@@ -83,10 +88,11 @@ body {
 }
 #blockZero {
   position: relative;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 1035px;
   height: 346px;
-  line-height: 96px;
   margin-left: 97px;
 }
 .sideBar {
@@ -440,7 +446,6 @@ body {
   height: 198px;
   display: flex;
   justify-content: space-between;
-  justify-content: ;
   position: relative;
   margin-top: 44px;
   margin-left: 67px;
@@ -554,7 +559,7 @@ body {
   height: 82px;
   margin-top: 90px;
   margin-left: 69px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 #block9_1 {
   width: 824px;
