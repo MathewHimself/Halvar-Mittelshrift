@@ -14,6 +14,7 @@ body {
   font-family: "Halvar Mittelschrift";
   background-color: black;
   position: relative;
+  overflow-x: hidden;
 }
 .image {
   content: "";
@@ -151,7 +152,7 @@ body {
   height: 315px;
   margin-top: -16px;
   margin-left: 67px;
-  line-height: 144px;
+  line-height: 110px;
 }
 .topBar {
   width: 1012px;
@@ -232,15 +233,16 @@ body {
 }
 .hL1 {
   font-style: normal;
-  font-weight: 50;
+  font-weight: 100;
 }
 .eT1 {
   font-style: normal;
-  font-weight: 100;
+  font-weight: 200;
 }
 .tH1 {
   font-style: normal;
-  font-weight: 150;
+  font-weight: 250;
+  font-display: swap;
 }
 .lT1 {
   font-style: normal;
@@ -267,6 +269,7 @@ body {
   font-weight: 900;
 }
 .secondLine {
+  transform: skew(-12deg);
   position: relative;
   height: 52px;
   width: 1035px;
@@ -277,6 +280,7 @@ body {
   column-gap: 29px;
 }
 .thirdLine {
+  transform: skew(-24deg);
   position: relative;
   height: 52px;
   width: 1035px;
@@ -329,7 +333,7 @@ body {
 }
 .addSection_3:hover {
   transition: all ease 0.5s;
-  transform: translateY(-120px);
+  transform: translateY(-60px);
 }
 .addSection_4 {
   position: relative;
@@ -342,7 +346,7 @@ body {
 }
 .addSection_4:hover {
   transition: all ease 0.5s;
-  transform: translateY(-120px);
+  transform: translateY(-60px);
 }
 .addSection_5 {
   position: relative;
@@ -355,7 +359,7 @@ body {
 }
 .addSection_5:hover {
   transition: all ease 0.5s;
-  transform: translateY(-120px);
+  transform: translateY(-60px);
 }
 .addSection_6 {
   display: flex;
@@ -397,6 +401,18 @@ body {
   height: 222px;
   margin-top: 150px;
   margin-left: 579px;
+}
+.section5_1_1 {
+  position: absolute;
+  width: 253px;
+  height: 222px;
+  top: 0px;
+  left: 579px;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+.section5_1_1:hover {
+  opacity: 1;
 }
 .section5_2 {
   font-size: 24px;

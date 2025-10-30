@@ -38,25 +38,25 @@
   font-family: "Halvar Mittelschrift";
   src: url("../fonts/HalvarMittel-Hl.woff") format("woff");
   font-style: normal;
-  font-weight: 50;
+  font-weight: 100;
 }
 @font-face {
   font-family: "Halvar Mittelschrift";
   src: url("../fonts/HalvarMittel-Hl_1.woff") format("woff");
   font-style: normal;
-  font-weight: 50;
+  font-weight: 100;
 }
 @font-face {
   font-family: "Halvar Mittelschrift";
   src: url("../fonts/HalvarMittel-HlSlanted.woff") format("woff");
   font-style: italic;
-  font-weight: 50;
+  font-weight: 100;
 }
 @font-face {
   font-family: "Halvar Mittelschrift";
   src: url("../fonts/HalvarMittel-HlSuSlanted.woff") format("woff");
   font-style: italic;
-  font-weight: 50;
+  font-weight: 100;
 }
 @font-face {
   font-family: "Halvar Mittelschrift";
@@ -116,23 +116,29 @@
   font-family: "Halvar Mittelschrift";
   src: url("../fonts/HalvarMittel-Th.woff") format("woff");
   font-style: 400;
-  font-weight: 150;
+  font-weight: 250;
 }
 @font-face {
   font-family: "Halvar Mittelschrift";
   src: url("../fonts/HalvarMittel-ThSlanted.woff") format("woff");
   font-style: italic;
-  font-weight: 150;
+  font-weight: 250;
 }
 @font-face {
   font-family: "Halvar Mittelschrift";
   src: url("../fonts/HalvarMittel-ThSuSlanted.woff") format("woff");
   font-style: italic;
-  font-weight: 150;
+  font-weight: 250;
 }
 @font-face {
   font-family: "Halvar Mittelshrift";
   src: url("../fonts/HalvarMittel-XBd.woff") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-XBd.woff2") format("woff2");
   font-style: normal;
   font-weight: 800;
 }
@@ -152,17 +158,24 @@
   font-family: "Halvar Mittelshrift";
   src: url("../fonts/HalvarMittel-XTh.woff") format("woff");
   font-style: normal;
-  font-weight: 100;
+  font-weight: 200;
 }
+@font-face {
+  font-family: "Halvar Mittelshrift";
+  src: url("../fonts/HalvarMittel-XTh.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
+}
+
 @font-face {
   font-family: "Halvar Mittelshrift";
   src: url("../fonts/HalvarMittel-XThSlanted.woff") format("woff");
   font-style: italic;
-  font-weight: 100;
+  font-weight: 200;
 }
 @font-face {
   font-family: "Halvar Mittelhrift";
   src: url("../fonts/HalvarMittel-XThSuSlanted.woff") format("woff");
   font-style: italic;
-  font-weight: 100;
+  font-weight: 200;
 }
